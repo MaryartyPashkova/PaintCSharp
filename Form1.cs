@@ -36,7 +36,8 @@ namespace Самойлов_Задаие_1
         int x, y, sX, sY, cX, cY;
         ColorDialog cd = new ColorDialog();
         public Color new_color;
-        List<figur> points = new List<figur>();
+        List<figur> points1 = new List<figur>();
+        List<figurFactory> points = new List<figurFactory>();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -110,15 +111,27 @@ namespace Самойлов_Задаие_1
         {
             if (Rect.Checked == true)
             {
-                figur fig = new figur();
-                fig = new rectangle();
-                fig.Draw(p.Color, g, e.X, e.Y);
+                //Faind(e.X, e.Y);
+
+                //figur fig = new figur();
+                //fig = new rectangle();
+                //fig.Draw(p.Color, g, e.X, e.Y);
+                figurFactory fig = new RectFactory(p.Color, g, e.X, e.Y);
+                figur figu = fig.DrawFigure(p.Color, g, e.X, e.Y);
+                //fig.DrawFigure(p.Color, g, e.X, e.Y);
+                points.Add(fig);
+                //Console.WriteLine(points);
             }
             else if (Ellipse.Checked == true)
             {
-                figur fig = new figur();
-                fig = new circle();
-                fig.Draw(p.Color, g, e.X, e.Y);
+                //figur fig = new figur();
+                //fig = new circle();
+                //fig.Draw(p.Color, g, e.X, e.Y);
+                //points.Add(fig);
+
+                figurFactory fig = new EllipseFactory(p.Color, g, e.X, e.Y);
+                figur figu = fig.DrawFigure(p.Color, g, e.X, e.Y);
+                points.Add(fig);
             }
 
         }

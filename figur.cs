@@ -18,8 +18,8 @@ namespace Самойлов_Задаие_1
 
         public figur()
         {
-            width = 50;
-            height = 50;
+            width = 100;
+            height = 100;
             //Random randomGen = new Random();
             //KnownColor[] names = (KnownColor[])Enum.GetValues(typeof(KnownColor));
             //KnownColor randomColorName = names[randomGen.Next(names.Length)];
@@ -36,11 +36,15 @@ namespace Самойлов_Задаие_1
         {
 
         }
-      
+        public virtual void Faind(int x, int y)
+        {
+
+        }
+
     }
     public class rectangle : figur
     {
-        public rectangle(int wight, int height, Color color) : base( wight, height, color)
+        public rectangle(int wight, int height, Color color) : base(wight, height, color)
         {
 
         }
@@ -77,7 +81,7 @@ namespace Самойлов_Задаие_1
         {
             Pen pen = new Pen(p, 1);
             center = new Point(x + width / 2, y + height / 2);
-            g.DrawEllipse(pen, x, y,width, height);
+            g.DrawEllipse(pen, x, y, width, height);
             //using (var path = GetPath())
             //    g.DrawPath(pen, path);
 
@@ -101,5 +105,53 @@ namespace Самойлов_Задаие_1
         //        result = path.IsVisible(p);
         //    return result;
         //}
+    }
+    public class Fainder : figur {
+        public override void Faind(int x, int y) {
+            
+        }
+
+
+
+    }
+    internal abstract class figurFactory
+    {
+        public abstract figur DrawFigure(Color p, Graphics g, int x, int y);
+        public figurFactory() {
+
+        }
+    }
+
+    internal class  RectFactory: figurFactory
+    {
+        public RectFactory(Color p, Graphics g, int x, int y) { 
+        
+        }
+        public override figur DrawFigure(Color p, Graphics g, int x, int y)
+        {
+            figur figur = new figur();
+            Pen pen = new Pen(p, 1);
+            g.DrawRectangle(pen, x, y, 100, 100);
+            // figur.Draw(p.Color, g, e.X, e.Y);
+
+            return figur;
+        }
+    }
+    internal class EllipseFactory : figurFactory
+    {
+        public EllipseFactory(Color p, Graphics g, int x, int y)
+        {
+
+        }
+        public override figur DrawFigure(Color p, Graphics g, int x, int y)
+        {
+            Pen pen = new Pen(p, 1);
+            figur figur = new figur();
+            //center = new Point(x + 100 / 2, y + 100 / 2);
+            g.DrawEllipse(pen, x, y, 100, 100);
+            // figur.Draw(p.Color, g, e.X, e.Y);
+
+            return figur;
+        }
     }
 }
