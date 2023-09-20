@@ -1,0 +1,22 @@
+C:\Users\Ekate\source\paint\paint\bin\Debug\paint.exe.config
+C:\Users\Ekate\source\paint\paint\bin\Debug\paint.exe
+C:\Users\Ekate\source\paint\paint\bin\Debug\paint.pdb
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.csproj.AssemblyReference.cache
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.Form1.resources
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.Properties.Resources.resources
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.csproj.GenerateResource.cache
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.csproj.CoreCompileInputs.cache
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.exe
+C:\Users\Ekate\source\paint\paint\obj\Debug\paint.pdb
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\bin\Debug\paint.exe.config
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\bin\Debug\paint.exe
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\bin\Debug\paint.pdb
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.csproj.AssemblyReference.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.csproj.SuggestedBindingRedirects.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.Form1.resources
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.Properties.Resources.resources
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.csproj.GenerateResource.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.csproj.CoreCompileInputs.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.exe
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\paint\paint\obj\Debug\paint.pdb

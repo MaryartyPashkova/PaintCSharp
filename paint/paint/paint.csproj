@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD40E182-7203-432E-B9DF-AD9261E41FFD}</ProjectGuid>
+    <ProjectGuid>{2F00156E-F04D-488D-B29B-1ECE88984321}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Самойлов_Задаие_1</RootNamespace>
-    <AssemblyName>Самойлов Задаие 1</AssemblyName>
+    <RootNamespace>paint</RootNamespace>
+    <AssemblyName>paint</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="figur.cs" />
+    <Compile Include="figures.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,7 +66,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,30 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\bucket.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\circle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\color.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\color_palette.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\eraser.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\line.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\pencil.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="paint img\rectangle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

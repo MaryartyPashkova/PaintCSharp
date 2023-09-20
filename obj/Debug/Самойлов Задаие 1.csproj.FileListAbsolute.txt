@@ -8,3 +8,14 @@ C:\Users\hp\Desktop\ПРВ_Задание_1\Самойлов Задаие 1\obj\
 C:\Users\hp\Desktop\ПРВ_Задание_1\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\ПРВ_Задание_1\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.exe
 C:\Users\hp\Desktop\ПРВ_Задание_1\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.pdb
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\bin\Debug\Самойлов Задаие 1.exe.config
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\bin\Debug\Самойлов Задаие 1.exe
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\bin\Debug\Самойлов Задаие 1.pdb
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.csproj.AssemblyReference.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов_Задаие_1.Form1.resources
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов_Задаие_1.Properties.Resources.resources
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.csproj.GenerateResource.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.csproj.CoreCompileInputs.cache
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.exe
+C:\Users\missa\OneDrive\Рабочий стол\7 semestr\Самойлов Задаие 1\obj\Debug\Самойлов Задаие 1.pdb

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Самойлов_Задаие_1
 {
@@ -16,8 +17,8 @@ namespace Самойлов_Задаие_1
         {
             InitializeComponent();
 
-            this.Height = 600;
-            this.Width = 900;
+            //this.Height = 600;
+            //this.Width = 900;
             bm = new Bitmap(pic.Width, pic.Height);
             g = Graphics.FromImage(bm);
             g.Clear(Color.White);
@@ -34,7 +35,9 @@ namespace Самойлов_Задаие_1
         int index;
         int x, y, sX, sY, cX, cY;
         ColorDialog cd = new ColorDialog();
-        Color new_color;
+        public Color new_color;
+        List<figur> points = new List<figur>();
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -42,16 +45,22 @@ namespace Самойлов_Задаие_1
 
         private void btn_ellipse_Click(object sender, EventArgs e)
         {
+            Rect.Checked = false;
+            Ellipse.Checked = false;
             index = 3;
         }
 
         private void btn_rect_Click(object sender, EventArgs e)
         {
+            Rect.Checked = false;
+            Ellipse.Checked = false;
             index = 4;
         }
 
         private void btn_line_Click(object sender, EventArgs e)
         {
+            Rect.Checked = false;
+            Ellipse.Checked = false;
             index = 5;
         }
 
@@ -77,12 +86,14 @@ namespace Самойлов_Задаие_1
 
         private void Clear_Click(object sender, EventArgs e)
         {
+            Rect.Checked = false;
+            Ellipse.Checked = false;
             g.Clear(Color.White);
             index = 0;
             pic.Image = bm;
         }
 
-        private void btn_color_Click(object sender, EventArgs e)
+        public void btn_color_Click(object sender, EventArgs e)
         {
             cd.ShowDialog();
             new_color = cd.Color;
@@ -92,6 +103,23 @@ namespace Самойлов_Задаие_1
 
         private void btn_fill_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void pic_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (Rect.Checked == true)
+            {
+                figur fig = new figur();
+                fig = new rectangle();
+                fig.Draw(p.Color, g, e.X, e.Y);
+            }
+            else if (Ellipse.Checked == true)
+            {
+                figur fig = new figur();
+                fig = new circle();
+                fig.Draw(p.Color, g, e.X, e.Y);
+            }
 
         }
 
@@ -151,11 +179,15 @@ namespace Самойлов_Задаие_1
 
         private void btn_pencil_Click(object sender, EventArgs e)
         {
+            Rect.Checked = false;
+            Ellipse.Checked = false;
             index = 1;
         }
 
         private void btn_eraser_Click(object sender, EventArgs e)
         {
+            Rect.Checked = false;
+            Ellipse.Checked = false;
             index = 2;
         }
 
